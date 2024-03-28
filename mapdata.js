@@ -11,7 +11,7 @@ var simplemaps_ukmap_mapdata={
     state_description: "Click to go to your state!",
     state_color: "F3BB56",
     state_hover_color: "#f98200",
-    state_url: "https://simplemaps.com",
+    state_url: "",
     border_size: 1.5,
     all_states_inactive: "yes",
     all_states_zoomable: "no",
@@ -273,13 +273,15 @@ var simplemaps_ukmap_mapdata={
       color: "#ffc967",
       inactive: "no",
       name: "Berkshire",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/berkshire"
     },
     UK04: {
       color: "#ffc967",
       inactive: "no",
       name: "Buckinghamshire",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/buckinghamshire"
     },
     UK05: {
       color: "#ffc967",
@@ -330,13 +332,15 @@ var simplemaps_ukmap_mapdata={
       color: "#ffb734",
       inactive: "no",
       name: "East Sussex",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/east-sussex"
     },
     UK15: {
       color: "#ffb734",
       inactive: "no",
       name: "Essex",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/essex"
     },
     UK16: {
       color: "#ffb734",
@@ -347,7 +351,8 @@ var simplemaps_ukmap_mapdata={
       color: "#ffb734",
       inactive: "no",
       name: "Greater London",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/greater-london"
     },
     UK18: {
       color: "#ffb734",
@@ -358,7 +363,8 @@ var simplemaps_ukmap_mapdata={
       color: "#ffb734",
       inactive: "no",
       name: "Hampshire",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/hampshire"
     },
     UK20: {
       color: "#ffb734",
@@ -369,7 +375,8 @@ var simplemaps_ukmap_mapdata={
       color: "#ffb734",
       inactive: "no",
       name: "Hertfordshire",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/hertfordshire"
     },
     UK22: {
       color: "#ffb734",
@@ -385,7 +392,8 @@ var simplemaps_ukmap_mapdata={
       color: "#ffb734",
       inactive: "no",
       name: "Kent",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/kent"
     },
     UK25: {
       color: "#ffb734",
@@ -461,7 +469,8 @@ var simplemaps_ukmap_mapdata={
       color: "#ffa501",
       inactive: "no",
       name: "Surrey",
-      description: " "
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/surrey"
     },
     UK41: {
       color: "#ffa501",
@@ -481,8 +490,9 @@ var simplemaps_ukmap_mapdata={
     UK44: {
       color: "#ffa501",
       inactive: "no",
-      name: "East Sussex",
-      description: " "
+      name: "West Sussex",
+      description: " ",
+      url: "https://www.jellyfish.solar/locations/"
     },
     UK45: {
       color: "#ffa501",
@@ -548,7 +558,8 @@ var simplemaps_ukmap_mapdata={
       name: "East Sussex",
       x: 856.05556,
       y: 1232.26231,
-      parent_id: "UK44"
+      parent_id: "UK44",
+      display: "no"
     },
     "1": {
       name: "Kent",
@@ -557,7 +568,7 @@ var simplemaps_ukmap_mapdata={
       parent_id: "UK24"
     },
     "2": {
-      name: "East Sussex",
+      name: "West Sussex",
       x: 785.44444,
       y: 1228.81786,
       parent_id: "UK44"
