@@ -492,7 +492,7 @@ var simplemaps_ukmap_mapdata={
       inactive: "no",
       name: "West Sussex",
       description: " ",
-      url: "https://www.jellyfish.solar/locations/"
+      url: "https://www.jellyfish.solar/locations/west-sussex"
     },
     UK45: {
       color: "#ffa501",
