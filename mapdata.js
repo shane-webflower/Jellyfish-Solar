@@ -35,7 +35,7 @@ var simplemaps_ukmap_mapdata={
     label_color: "#000",
     label_hover_color: "#ffffff",
     label_size: "7",
-    label_font: "Avenir",
+    label_font: "Arial",
     hide_labels: "no",
     manual_zoom: "no",
     back_image: "no",
